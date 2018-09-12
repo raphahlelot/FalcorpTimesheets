@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EFStoreContainer" CdmEntityContainer="TimeSheetsDataContext">
+    <EntitySetMapping Name="ChargeableHoursBalances">
+      <EntityTypeMapping TypeName="EF.ChargeableHoursBalance">
+        <MappingFragment StoreEntitySet="ChargeableHoursBalance">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Month" ColumnName="Month" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="RunOn" ColumnName="RunOn" />
+          <ScalarProperty Name="BillableHours" ColumnName="BillableHours" />
+          <ScalarProperty Name="IsCurrentMonth" ColumnName="IsCurrentMonth" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="MonthlyProgress_ChargeableHours" FunctionName="EF.Store.MonthlyProgress_ChargeableHours">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="EF.MonthlyProgress_ChargeableHours_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EmployeeBillableHours" ColumnName="EmployeeBillableHours" />
+          <ScalarProperty Name="EstimatedMonthlyBillableHours" ColumnName="EstimatedMonthlyBillableHours" />
+          <ScalarProperty Name="Overtime" ColumnName="Overtime" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="EmployeeAllocatedProjects" FunctionName="EF.Store.EmployeeAllocatedProjects">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="EF.EmployeeAllocatedProjects_Result">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="AllotedHours" ColumnName="AllotedHours" />
+          <ScalarProperty Name="ProjectType" ColumnName="ProjectType" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ClientCompany" ColumnName="ClientCompany" />
+          <ScalarProperty Name="ClientName" ColumnName="ClientName" />
+          <ScalarProperty Name="ProjectManager" ColumnName="ProjectManager" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

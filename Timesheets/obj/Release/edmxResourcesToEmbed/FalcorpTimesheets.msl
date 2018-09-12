@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TimeSheetsModelStoreContainer" CdmEntityContainer="TimeSheetsEntities1">
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="TimeSheetsModel.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmployeeTimes">
+      <EntityTypeMapping TypeName="TimeSheetsModel.EmployeeTime">
+        <MappingFragment StoreEntitySet="EmployeeTime">
+          <ScalarProperty Name="EmployeeTimeID" ColumnName="EmployeeTimeID" />
+          <ScalarProperty Name="CapturedDate" ColumnName="CapturedDate" />
+          <ScalarProperty Name="ChargableTime" ColumnName="ChargableTime" />
+          <ScalarProperty Name="ProjectCode" ColumnName="ProjectCode" />
+          <ScalarProperty Name="ProjectOwner" ColumnName="ProjectOwner" />
+          <ScalarProperty Name="Client" ColumnName="Client" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="TotalBillableHours" ColumnName="TotalBillableHours" />
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="LoginByEmailPassword" FunctionName="TimeSheetsModel.Store.LoginByEmailPassword">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TimeSheetsModel.LoginByEmailPassword_Result">
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

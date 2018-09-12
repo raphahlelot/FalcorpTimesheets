@@ -1,0 +1,10 @@
+D:\Timesheets\Timesheet.DAL\bin\Debug\Timesheet.DAL.dll
+D:\Timesheets\Timesheet.DAL\bin\Debug\Timesheet.DAL.pdb
+D:\Timesheets\Timesheet.DAL\obj\Debug\Timesheet.DAL.dll
+D:\Timesheets\Timesheet.DAL\obj\Debug\Timesheet.DAL.pdb
+D:\Timesheets\Timesheet.DAL\bin\Debug\Timesheet.DAL.dll.config
+D:\Timesheets\Timesheet.DAL\bin\Debug\EntityFramework.dll
+D:\Timesheets\Timesheet.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Timesheets\Timesheet.DAL\bin\Debug\EntityFramework.xml
+D:\Timesheets\Timesheet.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Timesheets\Timesheet.DAL\obj\Debug\Timesheet.DAL.csprojResolveAssemblyReference.cache

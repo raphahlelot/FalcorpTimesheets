@@ -1,0 +1,98 @@
+﻿@model Timesheets.EmployeeTime
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>EmployeeTime</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CapturedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CapturedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ChargableTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ChargableTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OverTimeHours)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OverTimeHours)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProjectCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProjectCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProjectOwner)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProjectOwner)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Client)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Client)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalBillableHours)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TotalBillableHours)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Comments)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Comments)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Employee.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Employee.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Employee.LastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Employee.LastName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.EmployeeTimeID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,5 @@
+C:\Users\Falcorp\Desktop\Timesheets\Timesheets.Services\bin\Release\Timesheets.Services.dll
+C:\Users\Falcorp\Desktop\Timesheets\Timesheets.Services\bin\Release\Timesheets.Services.pdb
+C:\Users\Falcorp\Desktop\Timesheets\Timesheets.Services\obj\Release\Timesheets.Services.csprojResolveAssemblyReference.cache
+C:\Users\Falcorp\Desktop\Timesheets\Timesheets.Services\obj\Release\Timesheets.Services.dll
+C:\Users\Falcorp\Desktop\Timesheets\Timesheets.Services\obj\Release\Timesheets.Services.pdb

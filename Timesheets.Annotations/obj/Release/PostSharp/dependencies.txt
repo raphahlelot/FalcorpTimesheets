@@ -1,0 +1,2 @@
+C:\ProgramData\PostSharp\6.1.2\bin.Release\net471\PostSharp.Compiler.Engine.dll
+C:\Users\Falcorp\Desktop\Timesheets\Timesheets.Annotations\obj\Release\PostSharp\postsharp.config

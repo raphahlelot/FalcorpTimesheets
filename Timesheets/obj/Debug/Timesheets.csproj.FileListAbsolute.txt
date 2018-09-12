@@ -1,0 +1,140 @@
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\ApplicationInsights.config
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Timesheets.dll.config
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Timesheets.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Timesheets.pdb
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Antlr3.Runtime.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\EntityFramework.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\EntityFramework.SqlServer.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.AI.Web.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.Owin.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.Owin.Security.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Newtonsoft.Json.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Owin.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\System.Web.Helpers.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\System.Web.Mvc.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\System.Web.Optimization.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\System.Web.Razor.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\System.Web.WebPages.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\System.Web.WebPages.Razor.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\WebGrease.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\System.Web.Helpers.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\System.Web.Mvc.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\System.Web.Optimization.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\System.Web.Razor.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\System.Web.WebPages.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\System.Web.WebPages.Razor.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Antlr3.Runtime.pdb
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Newtonsoft.Json.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\EntityFramework.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\EntityFramework.SqlServer.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.Owin.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.Owin.Security.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\bin\Microsoft.AI.Web.xml
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\obj\Debug\Timesheets.csprojResolveAssemblyReference.cache
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\obj\Debug\Timesheets.csproj.CoreCompileInputs.cache
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\obj\Debug\Timesheets.dll
+C:\Users\Thabang Raphahlelo\source\repos\Timesheets\Timesheets\obj\Debug\Timesheets.pdb
+D:\Timesheets\Timesheets\bin\ApplicationInsights.config
+D:\Timesheets\Timesheets\bin\Timesheets.dll.config
+D:\Timesheets\Timesheets\bin\Timesheets.dll
+D:\Timesheets\Timesheets\bin\Timesheets.pdb
+D:\Timesheets\Timesheets\bin\Antlr3.Runtime.dll
+D:\Timesheets\Timesheets\bin\EntityFramework.dll
+D:\Timesheets\Timesheets\bin\EntityFramework.SqlServer.dll
+D:\Timesheets\Timesheets\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Timesheets\Timesheets\bin\Microsoft.AI.DependencyCollector.dll
+D:\Timesheets\Timesheets\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Timesheets\Timesheets\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Timesheets\Timesheets\bin\Microsoft.AI.Web.dll
+D:\Timesheets\Timesheets\bin\Microsoft.AI.WindowsServer.dll
+D:\Timesheets\Timesheets\bin\Microsoft.ApplicationInsights.dll
+D:\Timesheets\Timesheets\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Timesheets\Timesheets\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Timesheets\Timesheets\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Timesheets\Timesheets\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Timesheets\Timesheets\bin\Microsoft.Owin.dll
+D:\Timesheets\Timesheets\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Timesheets\Timesheets\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Timesheets\Timesheets\bin\Microsoft.Owin.Security.dll
+D:\Timesheets\Timesheets\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Timesheets\Timesheets\bin\Microsoft.Owin.Security.Google.dll
+D:\Timesheets\Timesheets\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Timesheets\Timesheets\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Timesheets\Timesheets\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Timesheets\Timesheets\bin\Microsoft.Web.Infrastructure.dll
+D:\Timesheets\Timesheets\bin\Newtonsoft.Json.dll
+D:\Timesheets\Timesheets\bin\Owin.dll
+D:\Timesheets\Timesheets\bin\System.Web.Helpers.dll
+D:\Timesheets\Timesheets\bin\System.Web.Mvc.dll
+D:\Timesheets\Timesheets\bin\System.Web.Optimization.dll
+D:\Timesheets\Timesheets\bin\System.Web.Razor.dll
+D:\Timesheets\Timesheets\bin\System.Web.WebPages.Deployment.dll
+D:\Timesheets\Timesheets\bin\System.Web.WebPages.dll
+D:\Timesheets\Timesheets\bin\System.Web.WebPages.Razor.dll
+D:\Timesheets\Timesheets\bin\WebGrease.dll
+D:\Timesheets\Timesheets\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Timesheets\Timesheets\bin\System.Web.Helpers.xml
+D:\Timesheets\Timesheets\bin\System.Web.Mvc.xml
+D:\Timesheets\Timesheets\bin\System.Web.Optimization.xml
+D:\Timesheets\Timesheets\bin\System.Web.Razor.xml
+D:\Timesheets\Timesheets\bin\System.Web.WebPages.xml
+D:\Timesheets\Timesheets\bin\System.Web.WebPages.Deployment.xml
+D:\Timesheets\Timesheets\bin\System.Web.WebPages.Razor.xml
+D:\Timesheets\Timesheets\bin\Antlr3.Runtime.pdb
+D:\Timesheets\Timesheets\bin\Newtonsoft.Json.xml
+D:\Timesheets\Timesheets\bin\EntityFramework.xml
+D:\Timesheets\Timesheets\bin\EntityFramework.SqlServer.xml
+D:\Timesheets\Timesheets\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Timesheets\Timesheets\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Timesheets\Timesheets\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Timesheets\Timesheets\bin\Microsoft.Owin.xml
+D:\Timesheets\Timesheets\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Timesheets\Timesheets\bin\Microsoft.Owin.Security.xml
+D:\Timesheets\Timesheets\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Timesheets\Timesheets\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Timesheets\Timesheets\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Timesheets\Timesheets\bin\Microsoft.Owin.Security.Google.xml
+D:\Timesheets\Timesheets\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Timesheets\Timesheets\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Timesheets\Timesheets\bin\Microsoft.ApplicationInsights.xml
+D:\Timesheets\Timesheets\bin\Microsoft.AI.DependencyCollector.xml
+D:\Timesheets\Timesheets\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Timesheets\Timesheets\bin\Microsoft.AI.WindowsServer.xml
+D:\Timesheets\Timesheets\bin\Microsoft.AI.Web.xml
+D:\Timesheets\Timesheets\obj\Debug\Timesheets.dll
+D:\Timesheets\Timesheets\obj\Debug\Timesheets.pdb

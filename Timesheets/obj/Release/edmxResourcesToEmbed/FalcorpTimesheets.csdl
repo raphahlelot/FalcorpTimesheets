@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TimeSheetsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="EmployeeID" Type="Guid" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="EmployeeTimes" Relationship="Self.FK_dbo_EmployeeTime_dbo_Employee_EmployeeID" FromRole="Employee" ToRole="EmployeeTime" />
+  </EntityType>
+  <EntityType Name="EmployeeTime">
+    <Key>
+      <PropertyRef Name="EmployeeTimeID" />
+    </Key>
+    <Property Name="EmployeeTimeID" Type="Guid" Nullable="false" />
+    <Property Name="CapturedDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ChargableTime" Type="Int32" Nullable="false" />
+    <Property Name="ProjectCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ProjectOwner" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Client" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="EmployeeID" Type="Guid" />
+    <Property Name="TotalBillableHours" Type="Int32" Nullable="false" />
+    <Property Name="Comments" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_dbo_EmployeeTime_dbo_Employee_EmployeeID" FromRole="EmployeeTime" ToRole="Employee" />
+  </EntityType>
+  <Association Name="FK_dbo_EmployeeTime_dbo_Employee_EmployeeID">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="EmployeeTime" Type="Self.EmployeeTime" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmployeeID" />
+      </Principal>
+      <Dependent Role="EmployeeTime">
+        <PropertyRef Name="EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TimeSheetsEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Employees" EntityType="Self.Employee" />
+    <EntitySet Name="EmployeeTimes" EntityType="Self.EmployeeTime" />
+    <AssociationSet Name="FK_dbo_EmployeeTime_dbo_Employee_EmployeeID" Association="Self.FK_dbo_EmployeeTime_dbo_Employee_EmployeeID">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="EmployeeTime" EntitySet="EmployeeTimes" />
+    </AssociationSet>
+    <FunctionImport Name="LoginByEmailPassword" ReturnType="Collection(TimeSheetsModel.LoginByEmailPassword_Result)">
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="LoginByEmailPassword_Result">
+    <Property Type="Guid" Name="EmployeeID" Nullable="false" />
+    <Property Type="String" Name="Email" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Password" Nullable="true" MaxLength="50" />
+  </ComplexType>
+</Schema>

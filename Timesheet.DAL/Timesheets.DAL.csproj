@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\PostSharp.6.1.2-preview\build\PostSharp.props" Condition="Exists('..\packages\PostSharp.6.1.2-preview\build\PostSharp.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8F2E8396-FA16-4093-9AFD-40074844098E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Falcorp.Timesheet.DAL</RootNamespace>
+    <AssemblyName>Timesheet.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PostSharp, Version=6.1.2.0, Culture=neutral, PublicKeyToken=b13fd38b8f9c99d7, processorArchitecture=MSIL">
+      <HintPath>..\packages\PostSharp.Redist.6.1.2-preview\lib\net45\PostSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Api\Repository.IChargeableBalance.cs" />
+    <Compile Include="Api\IRepository.cs" />
+    <Compile Include="Api\ITimeSheetRepositoryStore.cs" />
+    <Compile Include="Api\Repository.cs" />
+    <Compile Include="Api\TimeSheetRepositoryStore.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="EF\ChargeableHoursBalance.cs">
+      <DependentUpon>TimeSheetDb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EF\EmployeeAllocatedProjects_Result.cs">
+      <DependentUpon>TimeSheetDb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EF\MonthlyProgress_ChargeableHours_Result.cs">
+      <DependentUpon>TimeSheetDb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EF\TimeSheetDb.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TimeSheetDb.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EF\TimeSheetDb.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TimeSheetDb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EF\TimeSheetDb.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TimeSheetDb.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\ChargeableBalanceRepository.cs" />
+    <Compile Include="Repository\ProjectsRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Timesheets.Annotations\Timesheets.Annotations.csproj">
+      <Project>{729c385f-caf5-47e6-b53a-ad8876795c49}</Project>
+      <Name>Timesheets.Annotations</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="EF\TimeSheetDb.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>TimeSheetDb.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Api\Repository.Projects.cs" />
+    <None Include="App.Config" />
+    <None Include="EF\TimeSheetDb.edmx.diagram">
+      <DependentUpon>TimeSheetDb.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EF\TimeSheetDb.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>TimeSheetDb.edmx</DependentUpon>
+      <LastGenOutput>TimeSheetDb.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="EF\TimeSheetDb.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>TimeSheetDb.edmx</DependentUpon>
+      <LastGenOutput>TimeSheetDb.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\PostSharp.6.1.2-preview\build\PostSharp.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\PostSharp.6.1.2-preview\build\PostSharp.props'))" />
+    <Error Condition="!Exists('..\packages\PostSharp.6.1.2-preview\build\PostSharp.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\PostSharp.6.1.2-preview\build\PostSharp.targets'))" />
+  </Target>
+  <Import Project="..\packages\PostSharp.6.1.2-preview\build\PostSharp.targets" Condition="Exists('..\packages\PostSharp.6.1.2-preview\build\PostSharp.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

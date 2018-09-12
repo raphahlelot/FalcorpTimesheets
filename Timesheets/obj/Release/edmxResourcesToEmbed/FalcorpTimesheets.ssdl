@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TimeSheetsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="EmployeeID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="EmployeeTime">
+    <Key>
+      <PropertyRef Name="EmployeeTimeID" />
+    </Key>
+    <Property Name="EmployeeTimeID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="CapturedDate" Type="date" Nullable="false" />
+    <Property Name="ChargableTime" Type="int" Nullable="false" />
+    <Property Name="ProjectCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProjectOwner" Type="nvarchar" MaxLength="50" />
+    <Property Name="Client" Type="nvarchar" MaxLength="50" />
+    <Property Name="EmployeeID" Type="uniqueidentifier" />
+    <Property Name="TotalBillableHours" Type="int" Nullable="false" />
+    <Property Name="Comments" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <Association Name="FK_dbo_EmployeeTime_dbo_Employee_EmployeeID">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="EmployeeTime" Type="Self.EmployeeTime" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmployeeID" />
+      </Principal>
+      <Dependent Role="EmployeeTime">
+        <PropertyRef Name="EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="LoginByEmailPassword" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Email" Type="nvarchar" Mode="In" />
+    <Parameter Name="Password" Type="nvarchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="TimeSheetsModelStoreContainer">
+    <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EmployeeTime" EntityType="Self.EmployeeTime" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_dbo_EmployeeTime_dbo_Employee_EmployeeID" Association="Self.FK_dbo_EmployeeTime_dbo_Employee_EmployeeID">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="EmployeeTime" EntitySet="EmployeeTime" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

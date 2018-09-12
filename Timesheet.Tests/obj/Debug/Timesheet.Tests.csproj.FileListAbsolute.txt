@@ -1,0 +1,12 @@
+D:\Timesheets\Timesheet.Tests\bin\Debug\Timesheet.Tests.dll
+D:\Timesheets\Timesheet.Tests\bin\Debug\Timesheet.Tests.pdb
+D:\Timesheets\Timesheet.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Timesheets\Timesheet.Tests\obj\Debug\Timesheet.Tests.dll
+D:\Timesheets\Timesheet.Tests\obj\Debug\Timesheet.Tests.pdb
+D:\Timesheets\Timesheet.Tests\obj\Debug\Timesheet.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Falcorp\Desktop\Timesheets\Timesheet.Tests\bin\Debug\Timesheet.Tests.dll
+C:\Users\Falcorp\Desktop\Timesheets\Timesheet.Tests\bin\Debug\Timesheet.Tests.pdb
+C:\Users\Falcorp\Desktop\Timesheets\Timesheet.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Falcorp\Desktop\Timesheets\Timesheet.Tests\obj\Debug\Timesheet.Tests.dll
+C:\Users\Falcorp\Desktop\Timesheets\Timesheet.Tests\obj\Debug\Timesheet.Tests.pdb
+C:\Users\Falcorp\Desktop\Timesheets\Timesheet.Tests\obj\Debug\Timesheet.Tests.csprojResolveAssemblyReference.cache

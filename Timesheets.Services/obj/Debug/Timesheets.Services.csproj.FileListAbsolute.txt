@@ -1,0 +1,10 @@
+D:\Timesheets\Timesheets.Services\bin\Debug\Timesheets.Services.dll
+D:\Timesheets\Timesheets.Services\bin\Debug\Timesheets.Services.pdb
+D:\Timesheets\Timesheets.Services\obj\Debug\Timesheets.Services.csprojResolveAssemblyReference.cache
+D:\Timesheets\Timesheets.Services\obj\Debug\Timesheets.Services.dll
+D:\Timesheets\Timesheets.Services\obj\Debug\Timesheets.Services.pdb
+C:\Users\Falcorp\Desktop\Timesheets\Timesheets.Services\bin\Debug\Timesheets.Services.dll
+C:\Users\Falcorp\Desktop\Timesheets\Timesheets.Services\bin\Debug\Timesheets.Services.pdb
+C:\Users\Falcorp\Desktop\Timesheets\Timesheets.Services\obj\Debug\Timesheets.Services.dll
+C:\Users\Falcorp\Desktop\Timesheets\Timesheets.Services\obj\Debug\Timesheets.Services.pdb
+C:\Users\Falcorp\Desktop\Timesheets\Timesheets.Services\obj\Debug\Timesheets.Services.csprojResolveAssemblyReference.cache

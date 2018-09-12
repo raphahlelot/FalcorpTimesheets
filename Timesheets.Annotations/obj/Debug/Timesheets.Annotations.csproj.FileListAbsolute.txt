@@ -1,0 +1,10 @@
+C:\Users\Falcorp\Desktop\Timesheets\Timesheets.Annotations\bin\Debug\Timesheets.Annotations.pssym
+C:\Users\Falcorp\Desktop\Timesheets\Timesheets.Annotations\bin\Debug\Timesheets.Annotations.dll
+C:\Users\Falcorp\Desktop\Timesheets\Timesheets.Annotations\bin\Debug\Timesheets.Annotations.pdb
+C:\Users\Falcorp\Desktop\Timesheets\Timesheets.Annotations\bin\Debug\PostSharp.dll
+C:\Users\Falcorp\Desktop\Timesheets\Timesheets.Annotations\bin\Debug\PostSharp.xml
+C:\Users\Falcorp\Desktop\Timesheets\Timesheets.Annotations\obj\Debug\PostSharp\touch
+C:\Users\Falcorp\Desktop\Timesheets\Timesheets.Annotations\obj\Debug\PostSharp\dependencies.txt
+C:\Users\Falcorp\Desktop\Timesheets\Timesheets.Annotations\obj\Debug\Timesheets.Annotations.dll
+C:\Users\Falcorp\Desktop\Timesheets\Timesheets.Annotations\obj\Debug\Timesheets.Annotations.pdb
+C:\Users\Falcorp\Desktop\Timesheets\Timesheets.Annotations\obj\Debug\PostSharp\postsharp.app.config

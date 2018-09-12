@@ -1,0 +1,6 @@
+C:\Users\Falcorp\Desktop\Timesheets\Timesheet.Tests\bin\Release\Timesheet.Tests.dll
+C:\Users\Falcorp\Desktop\Timesheets\Timesheet.Tests\bin\Release\Timesheet.Tests.pdb
+C:\Users\Falcorp\Desktop\Timesheets\Timesheet.Tests\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Falcorp\Desktop\Timesheets\Timesheet.Tests\obj\Release\Timesheet.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Falcorp\Desktop\Timesheets\Timesheet.Tests\obj\Release\Timesheet.Tests.dll
+C:\Users\Falcorp\Desktop\Timesheets\Timesheet.Tests\obj\Release\Timesheet.Tests.pdb
